@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Project
   m_RootView: {fileID: 8}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 786
     height: 374
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -72,10 +72,10 @@ MonoBehaviour:
     y: 573
     width: 1531
     height: 374
-  m_MinSize: {x: 333, y: 271}
-  m_MaxSize: {x: 14003, y: 10021}
+  m_MinSize: {x: 331, y: 271}
+  m_MaxSize: {x: 14001, y: 10021}
   vertical: 0
-  controlID: 17
+  controlID: 43
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -97,10 +97,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 434, y: 492}
-  m_MaxSize: {x: 18004, y: 14042}
+  m_MinSize: {x: 432, y: 492}
+  m_MaxSize: {x: 18002, y: 14042}
   vertical: 0
-  controlID: 117
+  controlID: 120
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -120,8 +120,8 @@ MonoBehaviour:
     y: 0
     width: 389
     height: 947
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 18}
@@ -147,8 +147,8 @@ MonoBehaviour:
     y: 0
     width: 379
     height: 573
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -202,7 +202,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -229,7 +229,8 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LoadedToolbars: []
+  m_LoadedToolbars:
+  - {fileID: 22}
   m_MainToolbar: {fileID: 22}
   m_LastLoadedLayoutName: 
 --- !u!114 &10
@@ -274,10 +275,10 @@ MonoBehaviour:
     y: 0
     width: 1531
     height: 947
-  m_MinSize: {x: 333, y: 492}
-  m_MaxSize: {x: 14003, y: 14042}
+  m_MinSize: {x: 331, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 1
-  controlID: 16
+  controlID: 121
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -302,7 +303,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 143
+  controlID: 122
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -356,7 +357,7 @@ MonoBehaviour:
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
-    ID: 381
+    ID: 186
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes:
@@ -381,15 +382,31 @@ MonoBehaviour:
     oldSplitSize: 0
   m_TestTypeToolbarIndex: 1
   m_PlayModeTestListGUI:
-    m_Window: {fileID: 0}
-    newResultList: []
+    m_Window: {fileID: 14}
+    newResultList:
+    - id: 1003
+      uniqueId: '[Life Gauge TDD][suite]'
+      name: Life Gauge TDD
+      fullName: Life Gauge TDD
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
     m_ResultText: 
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 
+      m_ExpandedIDs: bd00bdd3ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -413,7 +430,8 @@ MonoBehaviour:
       NotRunHidden: 0
       m_SearchString: 
       selectedCategoryMask: 0
-      availableCategories: []
+      availableCategories:
+      - Uncategorized
     m_SelectedOption: 0
   m_EditModeTestListGUI:
     m_Window: {fileID: 14}
@@ -422,8 +440,8 @@ MonoBehaviour:
       uniqueId: '[Life Gauge TDD][suite]'
       name: Life Gauge TDD
       fullName: Life Gauge TDD
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0571441
       messages: 
       output: 
       stacktrace: 
@@ -434,13 +452,97 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    m_ResultText: 
+    - id: 1003
+      uniqueId: '[Tests][U:/Repos/Zelda-Inspired-Life-Gauge-TDD/Life Gauge TDD/Library/ScriptAssemblies/Tests.dll][suite]'
+      name: Tests.dll
+      fullName: U:/Repos/Zelda-Inspired-Life-Gauge-TDD/Life Gauge TDD/Library/ScriptAssemblies/Tests.dll
+      resultStatus: 1
+      duration: 0.03195
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Life Gauge TDD][suite]'
+    - id: 1001
+      uniqueId: Tests.dll/[Tests][HeartTests+TheReplenishMethod][suite]
+      name: HeartTests+TheReplenishMethod
+      fullName: HeartTests+TheReplenishMethod
+      resultStatus: 1
+      duration: 0.0298386
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1003
+      parentUniqueId: '[Tests][U:/Repos/Zelda-Inspired-Life-Gauge-TDD/Life Gauge
+        TDD/Library/ScriptAssemblies/Tests.dll][suite]'
+    - id: 1002
+      uniqueId: Tests.dll/HeartTests+TheReplenishMethod/[Tests][HeartTests+TheReplenishMethod._0_Sets_Image_With_0_Fill_To_0_Fill]
+      name: _0_Sets_Image_With_0_Fill_To_0_Fill
+      fullName: HeartTests+TheReplenishMethod._0_Sets_Image_With_0_Fill_To_0_Fill
+      resultStatus: 1
+      duration: 0.0136947
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/[Tests][HeartTests+TheReplenishMethod][suite]
+    - id: 1003
+      uniqueId: Tests.dll/HeartTests+TheReplenishMethod/[Tests][HeartTests+TheReplenishMethod._1_Sets_Image_With_0_Fill_To_25_Percent_Fill]
+      name: _1_Sets_Image_With_0_Fill_To_25_Percent_Fill
+      fullName: HeartTests+TheReplenishMethod._1_Sets_Image_With_0_Fill_To_25_Percent_Fill
+      resultStatus: 1
+      duration: 0.0006231
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/[Tests][HeartTests+TheReplenishMethod][suite]
+    - id: 1004
+      uniqueId: Tests.dll/HeartTests+TheReplenishMethod/[Tests][HeartTests+TheReplenishMethod._1_Sets_Image_With_25_Percent_Fill_To_50_Percent_Fill]
+      name: _1_Sets_Image_With_25_Percent_Fill_To_50_Percent_Fill
+      fullName: HeartTests+TheReplenishMethod._1_Sets_Image_With_25_Percent_Fill_To_50_Percent_Fill
+      resultStatus: 1
+      duration: 0.0002413
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/[Tests][HeartTests+TheReplenishMethod][suite]
+    m_ResultText: _1_Sets_Image_With_25_Percent_Fill_To_50_Percent_Fill (0.000s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: bd00bdd3ffffff7f
+      m_SelectedIDs: 3f1973c8
+      m_LastClickedID: -931980993
+      m_ExpandedIDs: bd00bdd35d0bcc1906a76261ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -502,9 +604,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 472, y: 265.48932, z: 0}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 472, y: 265.48932, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -555,9 +657,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10
+    m_Target: 70.71067
     speed: 2
-    m_Value: 10
+    m_Value: 70.71067
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -653,16 +755,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Tests
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: U:\Repos\Zelda-Inspired-Life-Gauge-TDD\Life Gauge TDD
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 44370000
-    m_LastClickedID: 14148
-    m_ExpandedIDs: 000000004437000000ca9a3b
+    m_SelectedIDs: 48370000
+    m_LastClickedID: 14152
+    m_ExpandedIDs: 00000000483700007e37000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -690,7 +792,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000044370000
+    m_ExpandedIDs: 0000000048370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -734,7 +836,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 7}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -812,9 +914,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: cc340000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 44fbffff
+      m_ExpandedIDs: fcebffffdeecffffa4edffffaceeffff5cefffffc8efffff64f0fffff4f0ffff1ef1ffff70f1ffff3ef2ffff8af2ffff16f3ffff40f3ffffc2f3ffffeef3ffff44fbfffff6360000003700001c38000026380000943800009e380000c6390000d0390000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -884,10 +986,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -490.5
-    m_HBaseRangeMax: 490.5
-    m_VBaseRangeMin: -276
-    m_VBaseRangeMax: 276
+    m_HBaseRangeMin: -472
+    m_HBaseRangeMax: 472
+    m_VBaseRangeMin: -265.5
+    m_VBaseRangeMax: 265.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -904,11 +1006,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
+      y: 21
       width: 1150
-      height: 552
+      height: 531
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 575, y: 276}
+    m_Translation: {x: 575, y: 265.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -916,9 +1018,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -575
-      y: -276
+      y: -265.5
       width: 1150
-      height: 552
+      height: 531
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1150, y: 552}
