@@ -15,6 +15,34 @@ public class HeartTests
         _image = new GameObject().AddComponent<Image>();
         _heart = new Heart(_image);
     }
+
+    public class TheCurrentNumberOfHeartPiecesProperty : HeartTests
+    {
+        [Test]
+        public void _0_Image_Fill_Is_0_Heart_Pieces()
+        {
+            _image.fillAmount = 0;
+
+            Assert.AreEqual(0, _heart.CurrentNumberOfHeartPieces);
+        }
+
+        [Test]
+        public void _25_Percent_Image_With_0_Fill_To_0_Fill()
+        {
+            _image.fillAmount = 0.25f;
+
+            Assert.AreEqual(1, _heart.CurrentNumberOfHeartPieces);
+        }
+
+        [Test]
+        public void _75_Percent_Image_Fill_Is_3_Heart_Pieces()
+        {
+            _image.fillAmount = 0.75f;
+
+            Assert.AreEqual(3, _heart.CurrentNumberOfHeartPieces);
+        }
+    }
+
     public class TheReplenishMethod : HeartTests
     {
 

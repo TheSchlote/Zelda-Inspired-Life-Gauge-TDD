@@ -56,7 +56,7 @@ public class HeartContainerTests
         }
 
         [Test]
-        public void _Hearts_Are_Replenished_One_At_A_Time()
+        public void _Hearts_Are_Replenished_In_Order()
         {
             Target.fillAmount = 0;
             var image = new GameObject().AddComponent<Image>();
@@ -80,10 +80,12 @@ public class HeartContainerTests
 
             public void Replenish(int numberOfHeartPieces)
             {
+                var numberOfHeartPiecesRemaining = numberOfHeartPieces;
                 foreach(var heart in _hearts)
                 {
-                    //var totalHealed = numberOfHeartPieces;
+                    numberOfHeartPiecesRemaining -= Heart.HeartPiecesPerHeart - heart.CurrentNumberOfHeartPieces;
                     heart.Replenish(numberOfHeartPieces);
+                    if (numberOfHeartPiecesRemaining <= 0) break;
                 }
                 
             }
