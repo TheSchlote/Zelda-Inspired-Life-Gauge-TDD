@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 8}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 786
     height: 374
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -72,10 +72,10 @@ MonoBehaviour:
     y: 573
     width: 1531
     height: 374
-  m_MinSize: {x: 331, y: 271}
-  m_MaxSize: {x: 14001, y: 10021}
+  m_MinSize: {x: 333, y: 271}
+  m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
-  controlID: 43
+  controlID: 122
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -97,10 +97,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 432, y: 492}
-  m_MaxSize: {x: 18002, y: 14042}
+  m_MinSize: {x: 608, y: 471}
+  m_MaxSize: {x: 18003, y: 14042}
   vertical: 0
-  controlID: 120
+  controlID: 51
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: TestRunnerWindow
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -120,14 +120,14 @@ MonoBehaviour:
     y: 0
     width: 389
     height: 947
-  m_MinSize: {x: 100, y: 100}
+  m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
   - {fileID: 14}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -202,7 +202,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -275,10 +275,10 @@ MonoBehaviour:
     y: 0
     width: 1531
     height: 947
-  m_MinSize: {x: 331, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 333, y: 471}
+  m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
-  controlID: 121
+  controlID: 52
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -300,10 +300,10 @@ MonoBehaviour:
     y: 0
     width: 1531
     height: 573
-  m_MinSize: {x: 303, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
+  m_MinSize: {x: 302, y: 200}
+  m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 122
+  controlID: 53
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -330,7 +330,7 @@ MonoBehaviour:
   - {fileID: 15}
   - {fileID: 20}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -441,7 +441,7 @@ MonoBehaviour:
       name: Life Gauge TDD
       fullName: Life Gauge TDD
       resultStatus: 1
-      duration: 0.0571441
+      duration: 0.051984
       messages: 
       output: 
       stacktrace: 
@@ -457,7 +457,7 @@ MonoBehaviour:
       name: Tests.dll
       fullName: U:/Repos/Zelda-Inspired-Life-Gauge-TDD/Life Gauge TDD/Library/ScriptAssemblies/Tests.dll
       resultStatus: 1
-      duration: 0.03195
+      duration: 0.0381906
       messages: 
       output: 
       stacktrace: 
@@ -468,12 +468,97 @@ MonoBehaviour:
       categories: []
       parentId: 1000
       parentUniqueId: '[Life Gauge TDD][suite]'
+    - id: 1005
+      uniqueId: Tests.dll/[Tests][HeartTests+TheDepleteMethod][suite]
+      name: HeartTests+TheDepleteMethod
+      fullName: HeartTests+TheDepleteMethod
+      resultStatus: 1
+      duration: 0.0178392
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1007
+      parentUniqueId: '[Tests][U:/Repos/Zelda-Inspired-Life-Gauge-TDD/Life Gauge
+        TDD/Library/ScriptAssemblies/Tests.dll][suite]'
+    - id: 1006
+      uniqueId: Tests.dll/HeartTests+TheDepleteMethod/[Tests][HeartTests+TheDepleteMethod._0_Sets_Image_With_100_Percent_Fill_To_100_Percent_Fill]
+      name: _0_Sets_Image_With_100_Percent_Fill_To_100_Percent_Fill
+      fullName: HeartTests+TheDepleteMethod._0_Sets_Image_With_100_Percent_Fill_To_100_Percent_Fill
+      resultStatus: 1
+      duration: 0.0005309
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1005
+      parentUniqueId: Tests.dll/[Tests][HeartTests+TheDepleteMethod][suite]
+    - id: 1007
+      uniqueId: Tests.dll/HeartTests+TheDepleteMethod/[Tests][HeartTests+TheDepleteMethod._1_Sets_Image_With_100_Percent_Fill_To_75_Percent_Fill]
+      name: _1_Sets_Image_With_100_Percent_Fill_To_75_Percent_Fill
+      fullName: HeartTests+TheDepleteMethod._1_Sets_Image_With_100_Percent_Fill_To_75_Percent_Fill
+      resultStatus: 1
+      duration: 0.0001631
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1005
+      parentUniqueId: Tests.dll/[Tests][HeartTests+TheDepleteMethod][suite]
+    - id: 1008
+      uniqueId: Tests.dll/HeartTests+TheDepleteMethod/[Tests][HeartTests+TheDepleteMethod._2_Sets_Image_With_75_Percent_Fill_To_25_Percent_Fill]
+      name: _2_Sets_Image_With_75_Percent_Fill_To_25_Percent_Fill
+      fullName: HeartTests+TheDepleteMethod._2_Sets_Image_With_75_Percent_Fill_To_25_Percent_Fill
+      resultStatus: 1
+      duration: 0.000164
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1005
+      parentUniqueId: Tests.dll/[Tests][HeartTests+TheDepleteMethod][suite]
+    - id: 1009
+      uniqueId: Tests.dll/HeartTests+TheDepleteMethod/[Tests][HeartTests+TheDepleteMethod._Throws_Exception_For_Negative_Number_Of_Heart_Pieces]
+      name: _Throws_Exception_For_Negative_Number_Of_Heart_Pieces
+      fullName: HeartTests+TheDepleteMethod._Throws_Exception_For_Negative_Number_Of_Heart_Pieces
+      resultStatus: 1
+      duration: 0.0001828
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1005
+      parentUniqueId: Tests.dll/[Tests][HeartTests+TheDepleteMethod][suite]
     - id: 1001
       uniqueId: Tests.dll/[Tests][HeartTests+TheReplenishMethod][suite]
       name: HeartTests+TheReplenishMethod
       fullName: HeartTests+TheReplenishMethod
       resultStatus: 1
-      duration: 0.0298386
+      duration: 0.0060264
       messages: 
       output: 
       stacktrace: 
@@ -490,7 +575,7 @@ MonoBehaviour:
       name: _0_Sets_Image_With_0_Fill_To_0_Fill
       fullName: HeartTests+TheReplenishMethod._0_Sets_Image_With_0_Fill_To_0_Fill
       resultStatus: 1
-      duration: 0.0136947
+      duration: 0.0002802
       messages: 
       output: 
       stacktrace: 
@@ -507,7 +592,7 @@ MonoBehaviour:
       name: _1_Sets_Image_With_0_Fill_To_25_Percent_Fill
       fullName: HeartTests+TheReplenishMethod._1_Sets_Image_With_0_Fill_To_25_Percent_Fill
       resultStatus: 1
-      duration: 0.0006231
+      duration: 0.0001612
       messages: 
       output: 
       stacktrace: 
@@ -524,7 +609,7 @@ MonoBehaviour:
       name: _1_Sets_Image_With_25_Percent_Fill_To_50_Percent_Fill
       fullName: HeartTests+TheReplenishMethod._1_Sets_Image_With_25_Percent_Fill_To_50_Percent_Fill
       resultStatus: 1
-      duration: 0.0002413
+      duration: 0.0001578
       messages: 
       output: 
       stacktrace: 
@@ -536,13 +621,30 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: Tests.dll/[Tests][HeartTests+TheReplenishMethod][suite]
-    m_ResultText: _1_Sets_Image_With_25_Percent_Fill_To_50_Percent_Fill (0.000s)
+    - id: 1005
+      uniqueId: Tests.dll/HeartTests+TheReplenishMethod/[Tests][HeartTests+TheReplenishMethod._Throws_Exception_For_Negative_Number_Of_Heart_Pieces]
+      name: _Throws_Exception_For_Negative_Number_Of_Heart_Pieces
+      fullName: HeartTests+TheReplenishMethod._Throws_Exception_For_Negative_Number_Of_Heart_Pieces
+      resultStatus: 1
+      duration: 0.0001788
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/[Tests][HeartTests+TheReplenishMethod][suite]
+    m_ResultText: Life Gauge TDD (0.052s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3f1973c8
-      m_LastClickedID: -931980993
-      m_ExpandedIDs: bd00bdd35d0bcc1906a76261ffffff7f
+      m_SelectedIDs: bd00bdd3
+      m_LastClickedID: -742588227
+      m_ExpandedIDs: bd00bdd35d0bcc191c07285106a76261ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -711,7 +813,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -55502
+  m_LastSelectedObjectID: -7754
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -750,21 +852,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
     m_Globs: []
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: U:\Repos\Zelda-Inspired-Life-Gauge-TDD\Life Gauge TDD
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 48370000
-    m_LastClickedID: 14152
-    m_ExpandedIDs: 00000000483700007e37000000ca9a3bffffff7f
+    m_SelectedIDs: e43b0000
+    m_LastClickedID: 15332
+    m_ExpandedIDs: 00000000fe3600000037000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -792,7 +894,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000048370000
+    m_ExpandedIDs: 00000000fe36000000370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -914,9 +1016,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: fcebffffdeecffffa4edffffaceeffff5cefffffc8efffff64f0fffff4f0ffff1ef1ffff70f1ffff3ef2ffff8af2ffff16f3ffff40f3ffffc2f3ffffeef3ffff44fbfffff6360000003700001c38000026380000943800009e380000c6390000d0390000
+      m_SelectedIDs: b6e1ffff
+      m_LastClickedID: -7754
+      m_ExpandedIDs: 7ae2ffff06e3ffffc6e3ffff50e9fffffae9ffff4eebffff70ecffff7aedffff84eeffff88efffff8af0ffffdcf1ffffd2f2ffffc4f3ffffa2f4ffff7af5ffff54f6ffff72f7ffff3af8ffff02f9ffffd6f9ffffdafaffffb8ffffff7a3c0000843c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
