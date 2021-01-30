@@ -1,12 +1,11 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using NUnit.Framework;
 
-public class HeartContainerTests
+public partial class HeartContainerTests
 {
-    public class TheReplenishMethod
+    public partial class TheReplenishMethod
     {
         protected Image Target;
 
@@ -52,26 +51,58 @@ public class HeartContainerTests
             Assert.AreEqual(0, Target.fillAmount);
         }
 
-        public class HeartContainer
+        [Test]
+        public void _Distributes_Heart_Pieces_Across_Multiple_Unfilled_Hearts()
         {
-            private readonly List<Heart> _hearts;
-
-            public HeartContainer(List<Heart> hearts)
-            {
-                _hearts = hearts;
-            }
-
-            public void Replenish(int numberOfHeartPieces)
-            {
-                var numberOfHeartPiecesRemaining = numberOfHeartPieces;
-                foreach(var heart in _hearts)
-                {
-                    numberOfHeartPiecesRemaining -= Heart.HeartPiecesPerHeart - heart.CurrentNumberOfHeartPieces;
-                    heart.Replenish(numberOfHeartPieces);
-                    if (numberOfHeartPiecesRemaining <= 0) break;
-                }
-                
-            }
+            ((HeartContainer)A.HeartContainer()
+                .With(
+                    A.Heart()
+                        .With(An.Image().WithFillAmount(0.75f)),
+                    A.Heart().With(Target))).Replenish(2);
+            Assert.AreEqual(0.25f, Target.fillAmount);
         }
     }
+
+    public class TheDepleteMethod 
+    {
+        protected Image Target;
+
+        [SetUp]
+        public void BeforeEveryTest()
+        {
+            Target = An.Image().WithFillAmount(1); 
+        }
+
+        [Test]
+        public void _0_Sets_Full_Image_to_100_Percent_Fill()
+        {
+            ((HeartContainer)A.HeartContainer()
+                .With(
+                        A.Heart().With(Target))).Deplete(0);
+
+            Assert.AreEqual(1, Target.fillAmount);
+        }
+
+        [Test]
+        public void _1_Sets_Full_Image_to_75_Percent_Fill()
+        {
+            ((HeartContainer)A.HeartContainer()
+                .With(
+                        A.Heart().With(Target))).Deplete(1);
+
+            Assert.AreEqual(0.75f, Target.fillAmount);
+        }
+
+        [Test]
+        public void _2_Sets_Full_Image_To_75_Percent_Fill_After_Distrubution()
+        {
+            ((HeartContainer)A.HeartContainer()
+                .With(
+                        A.Heart().With(Target),
+                        A.Heart()
+                            .With(An.Image().WithFillAmount(0.25f)))).Deplete(2);
+            Assert.AreEqual(0.75f, Target.fillAmount);
+        }
+    }
+
 }

@@ -16,14 +16,33 @@ public class HeartTests
         _heart = new Heart(_image);
     }
 
-    public class TheCurrentNumberOfHeartPiecesProperty : HeartTests
+    public class TheEmptyHeartPiecesProperty : HeartTests
+    {
+        [Test]
+        public void _100_Percent_Image_Fill_Is_0_Empty_Heart_Pieces()
+        {
+            _image.fillAmount = 1;
+
+            Assert.AreEqual(0, _heart.EmptyHeartPieces);
+        }
+
+        [Test]
+        public void _75_Percent_Image_Fill_Is_1_Empty_Heart_Piece()
+        {
+            _image.fillAmount = 0.75f;
+
+            Assert.AreEqual(1, _heart.EmptyHeartPieces);
+        }
+    }
+
+    public class TheFilledNumberOfHeartPiecesProperty : HeartTests
     {
         [Test]
         public void _0_Image_Fill_Is_0_Heart_Pieces()
         {
             _image.fillAmount = 0;
 
-            Assert.AreEqual(0, _heart.CurrentNumberOfHeartPieces);
+            Assert.AreEqual(0, _heart.FilledHeartPieces);
         }
 
         [Test]
@@ -31,7 +50,7 @@ public class HeartTests
         {
             _image.fillAmount = 0.25f;
 
-            Assert.AreEqual(1, _heart.CurrentNumberOfHeartPieces);
+            Assert.AreEqual(1, _heart.FilledHeartPieces);
         }
 
         [Test]
@@ -39,7 +58,7 @@ public class HeartTests
         {
             _image.fillAmount = 0.75f;
 
-            Assert.AreEqual(3, _heart.CurrentNumberOfHeartPieces);
+            Assert.AreEqual(3, _heart.FilledHeartPieces);
         }
     }
 

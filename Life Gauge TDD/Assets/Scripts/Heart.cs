@@ -7,9 +7,18 @@ public class Heart
     private const float FillPercentHeartPiece = 0.25f;
     private readonly Image _image;
 
-    public int CurrentNumberOfHeartPieces 
+    public int FilledHeartPieces 
     {
-        get { return (int)(_image.fillAmount * HeartPiecesPerHeart); }  
+        get { return CalculateFilledHeartPieces(); }
+    }
+
+    public int EmptyHeartPieces 
+    {
+        get { return HeartPiecesPerHeart - CalculateFilledHeartPieces(); }
+    }
+    private int CalculateFilledHeartPieces()
+    {
+        return (int)(_image.fillAmount * HeartPiecesPerHeart);
     }
 
     public Heart(Image image)
