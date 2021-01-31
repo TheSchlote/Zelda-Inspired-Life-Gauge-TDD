@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Test Runner
+  m_Title: Inspector
   m_RootView: {fileID: 8}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -75,7 +75,7 @@ MonoBehaviour:
   m_MinSize: {x: 333, y: 271}
   m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
-  controlID: 84
+  controlID: 149
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -97,10 +97,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 434, y: 492}
+  m_MinSize: {x: 609, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 161
+  controlID: 298
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: TestRunnerWindow
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -120,14 +120,14 @@ MonoBehaviour:
     y: 0
     width: 552
     height: 947
-  m_MinSize: {x: 101, y: 121}
+  m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
   - {fileID: 14}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -202,7 +202,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_MinSize: {x: 333, y: 492}
   m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
-  controlID: 58
+  controlID: 20
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -303,7 +303,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 59
+  controlID: 21
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -357,7 +357,7 @@ MonoBehaviour:
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
-    ID: 300
+    ID: 189
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes:
@@ -441,7 +441,7 @@ MonoBehaviour:
       name: Life Gauge TDD
       fullName: Life Gauge TDD
       resultStatus: 1
-      duration: 0.1011158
+      duration: 0.1301107
       messages: 
       output: 
       stacktrace: 
@@ -457,7 +457,7 @@ MonoBehaviour:
       name: Tests.dll
       fullName: U:/Repos/Zelda-Inspired-Life-Gauge-TDD/Life Gauge TDD/Library/ScriptAssemblies/Tests.dll
       resultStatus: 1
-      duration: 0.0774226
+      duration: 0.1022859
       messages: 
       output: 
       stacktrace: 
@@ -473,7 +473,7 @@ MonoBehaviour:
       name: HeartContainerTests+TheDepleteMethod
       fullName: HeartContainerTests+TheDepleteMethod
       resultStatus: 1
-      duration: 0.0300543
+      duration: 0.0317259
       messages: 
       output: 
       stacktrace: 
@@ -490,7 +490,7 @@ MonoBehaviour:
       name: _0_Sets_Full_Image_to_100_Percent_Fill
       fullName: HeartContainerTests+TheDepleteMethod._0_Sets_Full_Image_to_100_Percent_Fill
       resultStatus: 1
-      duration: 0.0144352
+      duration: 0.0142542
       messages: 
       output: 
       stacktrace: 
@@ -507,7 +507,7 @@ MonoBehaviour:
       name: _1_Sets_Full_Image_to_75_Percent_Fill
       fullName: HeartContainerTests+TheDepleteMethod._1_Sets_Full_Image_to_75_Percent_Fill
       resultStatus: 1
-      duration: 0.0005207
+      duration: 0.0005653
       messages: 
       output: 
       stacktrace: 
@@ -524,7 +524,7 @@ MonoBehaviour:
       name: _2_Sets_Full_Image_To_75_Percent_Fill_After_Distrubution
       fullName: HeartContainerTests+TheDepleteMethod._2_Sets_Full_Image_To_75_Percent_Fill_After_Distrubution
       resultStatus: 1
-      duration: 0.0005594
+      duration: 0.0005625
       messages: 
       output: 
       stacktrace: 
@@ -541,7 +541,7 @@ MonoBehaviour:
       name: HeartContainerTests+TheReplenishMethod
       fullName: HeartContainerTests+TheReplenishMethod
       resultStatus: 1
-      duration: 0.0083571
+      duration: 0.0131025
       messages: 
       output: 
       stacktrace: 
@@ -558,7 +558,7 @@ MonoBehaviour:
       name: _0_Sets_Image_With_0_Fill_To_0_Fill
       fullName: HeartContainerTests+TheReplenishMethod._0_Sets_Image_With_0_Fill_To_0_Fill
       resultStatus: 1
-      duration: 0.0008633
+      duration: 0.0008698
       messages: 
       output: 
       stacktrace: 
@@ -575,7 +575,7 @@ MonoBehaviour:
       name: _1_Sets_Image_With_0_Fill_To_25_Percent_Fill
       fullName: HeartContainerTests+TheReplenishMethod._1_Sets_Image_With_0_Fill_To_25_Percent_Fill
       resultStatus: 1
-      duration: 0.0003789
+      duration: 0.0003899
       messages: 
       output: 
       stacktrace: 
@@ -592,7 +592,7 @@ MonoBehaviour:
       name: _Distributes_Heart_Pieces_Across_Multiple_Unfilled_Hearts
       fullName: HeartContainerTests+TheReplenishMethod._Distributes_Heart_Pieces_Across_Multiple_Unfilled_Hearts
       resultStatus: 1
-      duration: 0.0005561
+      duration: 0.0005644
       messages: 
       output: 
       stacktrace: 
@@ -609,7 +609,7 @@ MonoBehaviour:
       name: _Empty_Hearts_Are_Replenished
       fullName: HeartContainerTests+TheReplenishMethod._Empty_Hearts_Are_Replenished
       resultStatus: 1
-      duration: 0.0005452
+      duration: 0.0005428
       messages: 
       output: 
       stacktrace: 
@@ -626,7 +626,7 @@ MonoBehaviour:
       name: _Hearts_Are_Replenished_In_Order
       fullName: HeartContainerTests+TheReplenishMethod._Hearts_Are_Replenished_In_Order
       resultStatus: 1
-      duration: 0.0004581
+      duration: 0.0004549
       messages: 
       output: 
       stacktrace: 
@@ -643,7 +643,7 @@ MonoBehaviour:
       name: HeartTests+TheDepleteMethod
       fullName: HeartTests+TheDepleteMethod
       resultStatus: 1
-      duration: 0.0086528
+      duration: 0.0096304
       messages: 
       output: 
       stacktrace: 
@@ -660,7 +660,7 @@ MonoBehaviour:
       name: _0_Sets_Image_With_100_Percent_Fill_To_100_Percent_Fill
       fullName: HeartTests+TheDepleteMethod._0_Sets_Image_With_100_Percent_Fill_To_100_Percent_Fill
       resultStatus: 1
-      duration: 0.0007454
+      duration: 0.0007843
       messages: 
       output: 
       stacktrace: 
@@ -677,7 +677,7 @@ MonoBehaviour:
       name: _1_Sets_Image_With_100_Percent_Fill_To_75_Percent_Fill
       fullName: HeartTests+TheDepleteMethod._1_Sets_Image_With_100_Percent_Fill_To_75_Percent_Fill
       resultStatus: 1
-      duration: 0.0002431
+      duration: 0.0002469
       messages: 
       output: 
       stacktrace: 
@@ -694,7 +694,7 @@ MonoBehaviour:
       name: _2_Sets_Image_With_75_Percent_Fill_To_25_Percent_Fill
       fullName: HeartTests+TheDepleteMethod._2_Sets_Image_With_75_Percent_Fill_To_25_Percent_Fill
       resultStatus: 1
-      duration: 0.000238
+      duration: 0.0002628
       messages: 
       output: 
       stacktrace: 
@@ -711,7 +711,7 @@ MonoBehaviour:
       name: _Throws_Exception_For_Negative_Number_Of_Heart_Pieces
       fullName: HeartTests+TheDepleteMethod._Throws_Exception_For_Negative_Number_Of_Heart_Pieces
       resultStatus: 1
-      duration: 0.0020864
+      duration: 0.0020313
       messages: 
       output: 
       stacktrace: 
@@ -728,7 +728,7 @@ MonoBehaviour:
       name: HeartTests+TheEmptyHeartPiecesProperty
       fullName: HeartTests+TheEmptyHeartPiecesProperty
       resultStatus: 1
-      duration: 0.0047188
+      duration: 0.0080751
       messages: 
       output: 
       stacktrace: 
@@ -745,7 +745,7 @@ MonoBehaviour:
       name: _100_Percent_Image_Fill_Is_0_Empty_Heart_Pieces
       fullName: HeartTests+TheEmptyHeartPiecesProperty._100_Percent_Image_Fill_Is_0_Empty_Heart_Pieces
       resultStatus: 1
-      duration: 0.0006291
+      duration: 0.0007438
       messages: 
       output: 
       stacktrace: 
@@ -762,7 +762,7 @@ MonoBehaviour:
       name: _75_Percent_Image_Fill_Is_1_Empty_Heart_Piece
       fullName: HeartTests+TheEmptyHeartPiecesProperty._75_Percent_Image_Fill_Is_1_Empty_Heart_Piece
       resultStatus: 1
-      duration: 0.0002346
+      duration: 0.0021449
       messages: 
       output: 
       stacktrace: 
@@ -779,7 +779,7 @@ MonoBehaviour:
       name: HeartTests+TheFilledNumberOfHeartPiecesProperty
       fullName: HeartTests+TheFilledNumberOfHeartPiecesProperty
       resultStatus: 1
-      duration: 0.004078
+      duration: 0.006061
       messages: 
       output: 
       stacktrace: 
@@ -796,7 +796,7 @@ MonoBehaviour:
       name: _0_Image_Fill_Is_0_Heart_Pieces
       fullName: HeartTests+TheFilledNumberOfHeartPiecesProperty._0_Image_Fill_Is_0_Heart_Pieces
       resultStatus: 1
-      duration: 0.0002949
+      duration: 0.0004075
       messages: 
       output: 
       stacktrace: 
@@ -813,7 +813,7 @@ MonoBehaviour:
       name: _25_Percent_Image_With_0_Fill_To_0_Fill
       fullName: HeartTests+TheFilledNumberOfHeartPiecesProperty._25_Percent_Image_With_0_Fill_To_0_Fill
       resultStatus: 1
-      duration: 0.0002279
+      duration: 0.0002304
       messages: 
       output: 
       stacktrace: 
@@ -830,7 +830,7 @@ MonoBehaviour:
       name: _75_Percent_Image_Fill_Is_3_Heart_Pieces
       fullName: HeartTests+TheFilledNumberOfHeartPiecesProperty._75_Percent_Image_Fill_Is_3_Heart_Pieces
       resultStatus: 1
-      duration: 0.0002298
+      duration: 0.0002344
       messages: 
       output: 
       stacktrace: 
@@ -847,7 +847,7 @@ MonoBehaviour:
       name: HeartTests+TheReplenishMethod
       fullName: HeartTests+TheReplenishMethod
       resultStatus: 1
-      duration: 0.0047041
+      duration: 0.0055285
       messages: 
       output: 
       stacktrace: 
@@ -864,7 +864,7 @@ MonoBehaviour:
       name: _0_Sets_Image_With_0_Fill_To_0_Fill
       fullName: HeartTests+TheReplenishMethod._0_Sets_Image_With_0_Fill_To_0_Fill
       resultStatus: 1
-      duration: 0.000299
+      duration: 0.000319
       messages: 
       output: 
       stacktrace: 
@@ -881,7 +881,7 @@ MonoBehaviour:
       name: _1_Sets_Image_With_0_Fill_To_25_Percent_Fill
       fullName: HeartTests+TheReplenishMethod._1_Sets_Image_With_0_Fill_To_25_Percent_Fill
       resultStatus: 1
-      duration: 0.0002313
+      duration: 0.0002393
       messages: 
       output: 
       stacktrace: 
@@ -898,7 +898,7 @@ MonoBehaviour:
       name: _1_Sets_Image_With_25_Percent_Fill_To_50_Percent_Fill
       fullName: HeartTests+TheReplenishMethod._1_Sets_Image_With_25_Percent_Fill_To_50_Percent_Fill
       resultStatus: 1
-      duration: 0.0002296
+      duration: 0.0002324
       messages: 
       output: 
       stacktrace: 
@@ -915,7 +915,7 @@ MonoBehaviour:
       name: _Throws_Exception_For_Negative_Number_Of_Heart_Pieces
       fullName: HeartTests+TheReplenishMethod._Throws_Exception_For_Negative_Number_Of_Heart_Pieces
       resultStatus: 1
-      duration: 0.000283
+      duration: 0.0002851
       messages: 
       output: 
       stacktrace: 
@@ -932,7 +932,7 @@ MonoBehaviour:
       name: PlayerTests+TheCurrentHealthProperty
       fullName: PlayerTests+TheCurrentHealthProperty
       resultStatus: 1
-      duration: 0.0053606
+      duration: 0.0068714
       messages: 
       output: 
       stacktrace: 
@@ -949,7 +949,7 @@ MonoBehaviour:
       name: _0_Does_Nothing
       fullName: PlayerTests+TheCurrentHealthProperty._0_Does_Nothing
       resultStatus: 1
-      duration: 0.0003164
+      duration: 0.0003782
       messages: 
       output: 
       stacktrace: 
@@ -966,7 +966,7 @@ MonoBehaviour:
       name: _1_Increments_Current_Health
       fullName: PlayerTests+TheCurrentHealthProperty._1_Increments_Current_Health
       resultStatus: 1
-      duration: 0.0001424
+      duration: 0.0001474
       messages: 
       output: 
       stacktrace: 
@@ -983,7 +983,7 @@ MonoBehaviour:
       name: Overhealing_Is_Ignored
       fullName: PlayerTests+TheCurrentHealthProperty.Overhealing_Is_Ignored
       resultStatus: 1
-      duration: 0.0001469
+      duration: 0.0001395
       messages: 
       output: 
       stacktrace: 
@@ -1000,7 +1000,7 @@ MonoBehaviour:
       name: PlayerTestsSimplePasses
       fullName: PlayerTests+TheCurrentHealthProperty.PlayerTestsSimplePasses
       resultStatus: 1
-      duration: 0.0001384
+      duration: 0.0001352
       messages: 
       output: 
       stacktrace: 
@@ -1017,7 +1017,7 @@ MonoBehaviour:
       name: Throws_Exception_When_Current_Health_Is_Greater_Than_Maximum_Health
       fullName: PlayerTests+TheCurrentHealthProperty.Throws_Exception_When_Current_Health_Is_Greater_Than_Maximum_Health
       resultStatus: 1
-      duration: 0.0003177
+      duration: 0.0003561
       messages: 
       output: 
       stacktrace: 
@@ -1034,7 +1034,7 @@ MonoBehaviour:
       name: Throws_Exception_When_Current_Health_Is_Less_Than_0
       fullName: PlayerTests+TheCurrentHealthProperty.Throws_Exception_When_Current_Health_Is_Less_Than_0
       resultStatus: 1
-      duration: 0.0001902
+      duration: 0.0001847
       messages: 
       output: 
       stacktrace: 
@@ -1046,12 +1046,63 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1028
       parentUniqueId: Tests.dll/[Tests][PlayerTests+TheCurrentHealthProperty][suite]
+    - id: 1042
+      uniqueId: Tests.dll/[Tests][PlayerTests+TheDamagedEvent][suite]
+      name: PlayerTests+TheDamagedEvent
+      fullName: PlayerTests+TheDamagedEvent
+      resultStatus: 1
+      duration: 0.0048884
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1044
+      parentUniqueId: '[Tests][U:/Repos/Zelda-Inspired-Life-Gauge-TDD/Life Gauge
+        TDD/Library/ScriptAssemblies/Tests.dll][suite]'
+    - id: 1044
+      uniqueId: Tests.dll/PlayerTests+TheDamagedEvent/[Tests][PlayerTests+TheDamagedEvent.Overhealing_Is_Ignored]
+      name: Overhealing_Is_Ignored
+      fullName: PlayerTests+TheDamagedEvent.Overhealing_Is_Ignored
+      resultStatus: 1
+      duration: 0.0004495
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1042
+      parentUniqueId: Tests.dll/[Tests][PlayerTests+TheDamagedEvent][suite]
+    - id: 1043
+      uniqueId: Tests.dll/PlayerTests+TheDamagedEvent/[Tests][PlayerTests+TheDamagedEvent.Raises_Event_On_Damage]
+      name: Raises_Event_On_Damage
+      fullName: PlayerTests+TheDamagedEvent.Raises_Event_On_Damage
+      resultStatus: 1
+      duration: 0.0001911
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1042
+      parentUniqueId: Tests.dll/[Tests][PlayerTests+TheDamagedEvent][suite]
     - id: 1035
       uniqueId: Tests.dll/[Tests][PlayerTests+TheDamageMethod][suite]
       name: PlayerTests+TheDamageMethod
       fullName: PlayerTests+TheDamageMethod
       resultStatus: 1
-      duration: 0.0058913
+      duration: 0.0047335
       messages: 
       output: 
       stacktrace: 
@@ -1068,7 +1119,7 @@ MonoBehaviour:
       name: _0_Does_Nothing
       fullName: PlayerTests+TheDamageMethod._0_Does_Nothing
       resultStatus: 1
-      duration: 0.0002317
+      duration: 0.0002119
       messages: 
       output: 
       stacktrace: 
@@ -1085,7 +1136,7 @@ MonoBehaviour:
       name: _1_Decrements_Current_Health
       fullName: PlayerTests+TheDamageMethod._1_Decrements_Current_Health
       resultStatus: 1
-      duration: 0.0003514
+      duration: 0.0001423
       messages: 
       output: 
       stacktrace: 
@@ -1102,7 +1153,7 @@ MonoBehaviour:
       name: _Overkill_Is_Ignored
       fullName: PlayerTests+TheDamageMethod._Overkill_Is_Ignored
       resultStatus: 1
-      duration: 0.0001524
+      duration: 0.0001388
       messages: 
       output: 
       stacktrace: 
@@ -1114,13 +1165,64 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1035
       parentUniqueId: Tests.dll/[Tests][PlayerTests+TheDamageMethod][suite]
-    m_ResultText: Tests.dll (0.077s)
+    - id: 1039
+      uniqueId: Tests.dll/[Tests][PlayerTests+TheHealedEvent][suite]
+      name: PlayerTests+TheHealedEvent
+      fullName: PlayerTests+TheHealedEvent
+      resultStatus: 1
+      duration: 0.0049761
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1041
+      parentUniqueId: '[Tests][U:/Repos/Zelda-Inspired-Life-Gauge-TDD/Life Gauge
+        TDD/Library/ScriptAssemblies/Tests.dll][suite]'
+    - id: 1041
+      uniqueId: Tests.dll/PlayerTests+TheHealedEvent/[Tests][PlayerTests+TheHealedEvent.Overhealing_Is_Ignored]
+      name: Overhealing_Is_Ignored
+      fullName: PlayerTests+TheHealedEvent.Overhealing_Is_Ignored
+      resultStatus: 1
+      duration: 0.0004045
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1039
+      parentUniqueId: Tests.dll/[Tests][PlayerTests+TheHealedEvent][suite]
+    - id: 1040
+      uniqueId: Tests.dll/PlayerTests+TheHealedEvent/[Tests][PlayerTests+TheHealedEvent.Raises_Event_On_Heal]
+      name: Raises_Event_On_Heal
+      fullName: PlayerTests+TheHealedEvent.Raises_Event_On_Heal
+      resultStatus: 1
+      duration: 0.0001898
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1039
+      parentUniqueId: Tests.dll/[Tests][PlayerTests+TheHealedEvent][suite]
+    m_ResultText: Overhealing_Is_Ignored (0.000s)
     m_ResultStacktrace: 
     m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 06a76261
-      m_LastClickedID: 1633855238
-      m_ExpandedIDs: f9dec385f1f5fbaebd00bdd30fbf36e0c5d794e8eee77fed238358f35d0bcc198359db4108350b501c07285106a76261b88cd36fffffff7f
+      scrollPos: {x: 0, y: 66}
+      m_SelectedIDs: b23aaaa8
+      m_LastClickedID: -1465238862
+      m_ExpandedIDs: f9dec385f1f5fbaebd00bdd30fbf36e0c5d794e8eee77fede82a91f0238358f35d0bcc198359db41743b1d4d08350b501c07285106a76261b88cd36fffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1340,9 +1442,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: be370000
-    m_LastClickedID: 14270
-    m_ExpandedIDs: 00000000b2370000b4370000be37000000ca9a3b
+    m_SelectedIDs: ca370000
+    m_LastClickedID: 14282
+    m_ExpandedIDs: 00000000b8370000ba37000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1370,7 +1472,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b2370000b4370000
+    m_ExpandedIDs: 00000000b8370000ba370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1492,23 +1594,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1a410000
-      m_LastClickedID: 16666
-      m_ExpandedIDs: b6baffff1ebdffff86bfffffeec1ffff5cc4ffffb8c6ffff10c9ffff74cbffffc8cdffff24d0ffff8ed1ffff72d3ffffd4d6ffff4ad9ffff9edbffff76deffffe2e0ffff46e3ffff9ae5ffff46e8ffff9ceafffffaecffff5aefffffc4f1ffff16f4ffff12f7ffffaef9ffff60fbffff2e370000004100000a410000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 8addffff18e0ffffb0e2ffffdae4ffff5ae7ffffdee9ffff6aecffff9aefffff22f2ffff9af4ffff0cf7ffff86f9ffff60fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Canvas
-        m_OriginalName: Canvas
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 16640
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 6}
       m_SearchString: 
